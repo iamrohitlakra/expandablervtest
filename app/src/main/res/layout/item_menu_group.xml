@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/lyt_parent"
-    style="@style/RippleStyleDark"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -18,7 +17,7 @@
             android:layout_width="@dimen/spacing_mxlarge"
             android:layout_height="@dimen/spacing_mxlarge"
             android:tint="@color/colorPrimary"
-            app:srcCompat="@drawable/ic_event" />
+            android:src="@drawable/ic_event" />
 
         <TextView
             android:id="@+id/item_menu_group_name"
@@ -48,7 +47,7 @@
             android:layout_height="@dimen/spacing_mxlarge"
             android:layout_gravity="center_vertical"
             android:tint="@color/colorPrimary"
-            app:srcCompat="@drawable/ic_arrow_drop" />
+            android:src="@drawable/ic_arrow_drop" />
 
     </LinearLayout>
 
